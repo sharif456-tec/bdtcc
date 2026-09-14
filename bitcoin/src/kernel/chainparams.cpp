@@ -155,7 +155,7 @@ public:
         m_assumed_blockchain_size = 897;
         m_assumed_chain_state_size = 14;
 
-        genesis = CreateGenesisBlock(1757800000, 0, 0x207fffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1757800000, 3, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
         // Note that of those which support the service bits prefix, most only support a subset of
